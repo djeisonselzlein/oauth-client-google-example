@@ -19,7 +19,7 @@ import com.google.api.client.http.javanet.NetHttpTransport;
 
 public class App {
 
-	private static final String BASE_URL = "http://204.197.244.106/~magentows4aw/loja/";
+	private static final String BASE_URL = "APPLICATION_BASE_URL";
 	private static final String INITIATE = BASE_URL + "oauth/initiate";
 	private static final String AUTHORIZE = BASE_URL + "admin/oauth_authorize";
 	private static final String TOKEN = BASE_URL + "oauth/token";
